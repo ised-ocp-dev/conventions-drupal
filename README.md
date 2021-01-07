@@ -1,11 +1,3 @@
-[![Latest Stable Version](https://img.shields.io/packagist/v/drupol/drupal-conventions.svg?style=flat-square)](https://packagist.org/packages/drupol/drupal-conventions)
- [![Stars](https://img.shields.io/github/stars/drupol/drupal-conventions.svg?style=flat-square)](https://github.com/drupol/drupal-conventions)
- [![Total Downloads](https://img.shields.io/packagist/dt/drupol/drupal-conventions.svg?style=flat-square)](https://packagist.org/packages/drupol/drupal-conventions)
- [![Build Status](https://img.shields.io/travis/drupol/drupal-conventions/master.svg?style=flat-square)](https://travis-ci.org/drupol/drupal-conventions)
- [![License](https://img.shields.io/github/license/drupol/drupal-conventions.svg?style=flat-square)](https://packagist.org/packages/drupol/drupal-conventions)
- [![Say Thanks!](https://img.shields.io/badge/Say-thanks-brightgreen.svg?style=flat-square)](https://saythanks.io/to/drupol)
- [![Donate!](https://img.shields.io/badge/Donate-Paypal-brightgreen.svg?style=flat-square)](https://paypal.me/drupol)
-
 # Drupal conventions
 
 This tool will check your code against Drupal's coding standard.
@@ -76,7 +68,3 @@ parameters:
 ```
 
 In conjunction with `extra_tasks`, use `skip_tasks` to skip tasks if needed.
-
-## Contributing
-
-Feel free to contribute to this library by sending Github pull requests. I'm quite reactive :-)
