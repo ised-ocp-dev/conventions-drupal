@@ -6,12 +6,12 @@ It's based on [GrumPHP](https://github.com/phpro/grumphp) and comes with a defau
 
 The following checks are triggered:
 * [Drupal coder](https://www.drupal.org/project/coder) code sniffer's checks
-* Custom [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) configuration
 * PHPLint
 * YAMLlint
 * JSONlint
+* ESLint
 
-Drupal 7 and 8 are supported.
+Drupal 7, 8 and 9 are supported.
 
 ## Installation
 
@@ -23,11 +23,20 @@ composer require --dev drupol/drupal-conventions
 
 Manually add to your `composer.json` file:
 
+#### Drupal 9
+```yaml
+    "extra": {
+        "grumphp": {
+            "config-default-path": "vendor/boehringer/bi-platform-drupal-conventions/config/drupal9/grumphp.yml"
+        }
+    }
+```
+
 #### Drupal 8
 ```yaml
     "extra": {
         "grumphp": {
-            "config-default-path": "vendor/drupol/drupal-conventions/config/drupal8/grumphp.yml"
+            "config-default-path": "vendor/boehringer/bi-platform-drupal-conventions/config/drupal8/grumphp.yml"
         }
     }
 ```
@@ -35,7 +44,7 @@ Manually add to your `composer.json` file:
 ```yaml
     "extra": {
         "grumphp": {
-            "config-default-path": "vendor/drupol/drupal-conventions/config/drupal7/grumphp.yml"
+            "config-default-path": "vendor/boehringer/bi-platform-drupal-conventions/config/drupal7/grumphp.yml"
         }
     }
 ```
@@ -47,19 +56,19 @@ Edit the file `grumphp.yml.dist` or `grumphp.yml` and add on the top it:
 #### Drupal 8
 ```yaml
 imports:
-  - { resource: vendor/drupol/drupal-conventions/config/drupal8/grumphp.yml }
+  - { resource: vendor/boehringer/bi-platform-drupal-conventions/config/drupal8/grumphp.yml }
 ```
 #### Drupal 7
 ```yaml
 imports:
-  - { resource: vendor/drupol/drupal-conventions/config/drupal7/grumphp.yml }
+  - { resource: vendor/boehringer/bi-platform-drupal-conventions/config/drupal7/grumphp.yml }
 ```
 
 To add an extra Grumphp task:
 
 ```yaml
 imports:
-  - { resource: vendor/drupol/drupal-conventions/config/drupal7/grumphp.yml }
+  - { resource: vendor/boehringer/bi-platform-drupal-conventions/config/drupal7/grumphp.yml }
 
 parameters:
   extra_tasks:
