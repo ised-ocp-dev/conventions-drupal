@@ -24,6 +24,13 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": {
+        "bihub": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/biitms/"
+        }
+    },    
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
