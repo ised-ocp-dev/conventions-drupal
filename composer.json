@@ -13,7 +13,7 @@
     ],
     "license": "MGPL-2.0-or-laterIT",
     "require": {
-        "php": ">= 7.1.3",
+        "php": "^7.3 || ^7.4 || ^8",
         "drupal/coder": "^8.3",
         "boehringer/bi-platform-php-conventions": "dev-master",
         "drupal/devel": "^4.1"
@@ -24,13 +24,6 @@
     "config": {
         "sort-packages": true
     },
-    "repositories": {
-        "bihub": {
-            "type": "composer",
-            "url": "https://repo.packagist.com/biitms/"
-        }
-    },    
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
