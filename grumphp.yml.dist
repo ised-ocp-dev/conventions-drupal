@@ -1,2 +1,0 @@
-imports:
-    - { resource: 'vendor/boehringer/bi-platform-drupal-conventions/config/drupal9/grumphp.yml' }
