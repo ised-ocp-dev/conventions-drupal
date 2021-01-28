@@ -16,7 +16,8 @@
         "php": "^7.3 || ^7.4 || ^8",
         "drupal/coder": "^8.3",
         "boehringer/bi-platform-php-conventions": "dev-master",
-        "drupal/devel": "^4.1"
+        "drupal/devel": "^4.1",
+        "drupal/twig_xdebug": "^1.2"
     },
     "suggest": {
         "symplify/coding-standard": "The LineLength fixer needs this library. Only PHP >= 7."
