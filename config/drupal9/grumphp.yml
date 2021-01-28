@@ -4,7 +4,7 @@ grumphp:
         enabled: true
         max_workers: 32
     fixer:
-        enabled: true
+        enabled: false
         fix_by_default: false
     stop_on_failure: false
     ignore_unstaged_changes: true
