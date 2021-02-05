@@ -10,8 +10,8 @@ grumphp:
     ignore_unstaged_changes: true
     hide_circumvention_tip: false
     ascii:
-        failed: vendor/boehringer/bi-platform-drupal-conventions/config/response/failed.txt
-        succeeded: vendor/boehringer/bi-platform-drupal-conventions/config/response/succeeded.txt   
+        failed: ../response/failed.txt
+        succeeded: ../response/succeeded.txt   
 
     testsuites:
         php:
