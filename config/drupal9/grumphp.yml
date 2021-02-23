@@ -31,7 +31,7 @@ grumphp:
                 - jsonlint
 
     extensions:
-        - Boehringer\DrupalConventions\GrumphpTasksExtension
+        - Robolo\ConventionsDrupal\GrumphpTasksExtension
 
     # Tasks.
     tasks:

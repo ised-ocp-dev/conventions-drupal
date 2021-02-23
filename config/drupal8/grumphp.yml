@@ -30,7 +30,7 @@ grumphp:
         fix_by_default: true
 
     extensions:
-        - Boehringer\DrupalConventions\GrumphpTasksExtension
+        - Robolo\ConventionsDrupal\GrumphpTasksExtension
 
     # Tasks.
     tasks:

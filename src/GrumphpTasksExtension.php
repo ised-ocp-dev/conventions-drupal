@@ -1,6 +1,6 @@
 <?php
 
-namespace Boehringer\DrupalConventions;
+namespace Robolo\ConventionsDrupal;
 
 use GrumPHP\Extension\ExtensionInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

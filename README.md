@@ -1,4 +1,4 @@
-# Drupal conventions
+# Conventions for Drupal
 
 This tool will check your code against Drupal's coding standard.
 
@@ -16,18 +16,16 @@ Drupal 7, 8 and 9 are supported.
 ## Installation
 
 ```shell
-composer require --dev drupol/drupal-conventions
+composer require --dev robolo/conventions-drupal
 ```
-
 ### If you're not using GrumPHP
 
 Manually add to your `composer.json` file:
-
 #### Drupal 9
 ```yaml
     "extra": {
         "grumphp": {
-            "config-default-path": "vendor/boehringer/bi-platform-drupal-conventions/config/drupal9/grumphp.yml"
+            "config-default-path": "vendor/robolo/conventions-drupal/config/drupal9/grumphp.yml"
         }
     }
 ```
@@ -36,7 +34,7 @@ Manually add to your `composer.json` file:
 ```yaml
     "extra": {
         "grumphp": {
-            "config-default-path": "vendor/boehringer/bi-platform-drupal-conventions/config/drupal8/grumphp.yml"
+            "config-default-path": "vendor/brobolo/conventions-drupal/config/drupal8/grumphp.yml"
         }
     }
 ```
@@ -44,7 +42,7 @@ Manually add to your `composer.json` file:
 ```yaml
     "extra": {
         "grumphp": {
-            "config-default-path": "vendor/boehringer/bi-platform-drupal-conventions/config/drupal7/grumphp.yml"
+            "config-default-path": "vendor/robolo/conventions-drupal/config/drupal7/grumphp.yml"
         }
     }
 ```
@@ -56,19 +54,19 @@ Edit the file `grumphp.yml.dist` or `grumphp.yml` and add on the top it:
 #### Drupal 8
 ```yaml
 imports:
-  - { resource: vendor/boehringer/bi-platform-drupal-conventions/config/drupal8/grumphp.yml }
+  - { resource: vendor/robolo/conventions-drupal/config/drupal8/grumphp.yml }
 ```
 #### Drupal 7
 ```yaml
 imports:
-  - { resource: vendor/boehringer/bi-platform-drupal-conventions/config/drupal7/grumphp.yml }
+  - { resource: vendor/robolo/conventions-drupal/config/drupal7/grumphp.yml }
 ```
 
 To add an extra Grumphp task:
 
 ```yaml
 imports:
-  - { resource: vendor/boehringer/bi-platform-drupal-conventions/config/drupal7/grumphp.yml }
+  - { resource: vendor/robolo/conventions-drupal/config/drupal7/grumphp.yml }
 
 parameters:
   extra_tasks:

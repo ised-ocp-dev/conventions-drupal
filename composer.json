@@ -1,5 +1,5 @@
 {
-    "name": "boehringer/bi-platform-drupal-conventions",
+    "name": "robolo/conventions-drupal",
     "type": "library",
     "description": "Drupal standards for coding enforcement conventions.",
     "keywords": [
@@ -15,7 +15,7 @@
     "require": {
         "php": "^7.3 || ^7.4 || ^8",
         "drupal/coder": "^8.3",
-        "boehringer/bi-platform-php-conventions": "dev-master",
+        "robolo/conventions-php": "dev-master",
         "drupal/devel": "^4.1"
     },
     "suggest": {
@@ -27,7 +27,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Boehringer\\DrupalConventions\\": "./src/"
+            "Robolo\\ConventionsDrupal\\": "./src/"
         }
     }
 }

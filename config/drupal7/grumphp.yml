@@ -28,7 +28,7 @@ grumphp:
         fix_by_default: true
 
     extensions:
-        - Boehringer\PhpConventions\GrumphpTasksExtension
+        - Robolo\ConventionsDrupal\GrumphpTasksExtension
 
     # Tasks.
     tasks:
