@@ -1,5 +1,5 @@
 {
-    "name": "robolo/conventions-drupal",
+    "name": "ised-isde/conventions-drupal",
     "type": "library",
     "description": "Drupal standards for coding enforcement conventions.",
     "keywords": [
@@ -15,7 +15,7 @@
     "require": {
         "php": "^7.3 || ^7.4 || ^8",
         "drupal/coder": "^8.3",
-        "robolo/conventions-php": "dev-master",
+        "ised-isde/conventions-php": "^1",
         "drupal/devel": "^4.1"
     },
     "suggest": {
@@ -27,7 +27,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Robolo\\ConventionsDrupal\\": "./src/"
+            "IsedIsde\\ConventionsDrupal\\": "./src/"
         }
     }
 }
