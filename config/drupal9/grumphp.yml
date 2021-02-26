@@ -31,7 +31,7 @@ grumphp:
                 - jsonlint
 
     extensions:
-        - Robolo\ConventionsDrupal\GrumphpTasksExtension
+        - IsedIsde\ConventionsDrupal\GrumphpTasksExtension
 
     # Tasks.
     tasks:
@@ -135,7 +135,7 @@ parameters:
         - inc
     tasks.phpcs.whitelist_patterns:
         - /(.*)/
-        - /^docroot\/modules\/(.*)/
+        - /^html\/modules\/(.*)/
     tasks.phpcs.standard: 
         - Drupal
         - DrupalPractice
@@ -145,7 +145,7 @@ parameters:
     # Twigcs
     tasks.twigcs.triggered_by: ['twig']
     tasks.twigcs.ruleset: 'FriendsOfTwig\Twigcs\Ruleset\Official'
-    tasks.twigcs.path: 'docroot/profiles'
+    tasks.twigcs.path: 'html/profiles'
     tasks.twigcs.severity: 'warning'
     tasks.twigcs.exclude:
         - docroot/core
@@ -164,7 +164,7 @@ parameters:
         - tsx
         - vue    
     tasks.eslint.whitelist_patterns:
-        - /^docroot\/modules\/(.*)/
+        - /^html\/modules\/(.*)/
     tasks.eslint.config: docroot/.eslintrc.json
 
     tasks.jsonlint.ignore_patterns:
