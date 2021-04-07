@@ -29,6 +29,12 @@ grumphp:
             tasks:
                 - eslint
                 - jsonlint
+        static:
+            tasks:
+                - securitychecker_symfony
+                # - phpcpd
+                - phpstan
+
 
     extensions:
         - IsedIsde\ConventionsDrupal\GrumphpTasksExtension
