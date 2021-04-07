@@ -148,10 +148,10 @@ parameters:
     tasks.twigcs.path: 'html/profiles'
     tasks.twigcs.severity: 'warning'
     tasks.twigcs.exclude:
-        - docroot/core
-        - docroot/modules
-        - docroot/themes
-        - docroot/sites
+        - html/core
+        - html/modules
+        - html/themes
+        - html/sites
         - vendor
         - config
 
@@ -165,7 +165,7 @@ parameters:
         - vue    
     tasks.eslint.whitelist_patterns:
         - /^html\/modules\/(.*)/
-    tasks.eslint.config: docroot/.eslintrc.json
+    tasks.eslint.config: html/.eslintrc.json
 
     tasks.jsonlint.ignore_patterns:
         - tests/
