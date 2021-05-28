@@ -29,11 +29,11 @@ grumphp:
             tasks:
                 - eslint
                 - jsonlint
-        static:
-            tasks:
-                - securitychecker_symfony
-                # - phpcpd
-                - phpstan
+        # static:
+        #     tasks:
+        #         - securitychecker_symfony
+        #         # - phpcpd
+        #         - phpstan
 
 
     extensions:
